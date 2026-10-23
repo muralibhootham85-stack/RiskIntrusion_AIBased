@@ -1,0 +1,11 @@
+data/
+results/
+.venv/
+__pycache__/
+.env
+
+run.log
+
+logs/
+*.log
+.ruff_cache/
