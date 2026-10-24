@@ -9,3 +9,4 @@ run.log
 logs/
 *.log
 .ruff_cache/
+*.tar.gz
