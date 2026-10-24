@@ -1,0 +1,22 @@
+{
+  "config": {
+    "seed": 802,
+    "trees": 200,
+    "iterations": 200,
+    "jobs": 2,
+    "source_sha256": "69fb375b4b4d9543ee82ecae0ddd0e9ca953132207c70a9a5022479fa393d04a",
+    "dataset_sha256": {
+      "UNSW_NB15_training-set.csv": "bec7dd5ec88dc2a0ccc7a07879d338395ed7421750f675fd0339e07dfe0648fa",
+      "UNSW_NB15_testing-set.csv": "734fe6642edf758f7c94d7d9149426b49d202fe8e7bf0bef47392489c3c0a559"
+    }
+  },
+  "outputs": {
+    "data_audit.json": "75374aa677a81d536f02235a022da04499bc1893ddccffd8b4edf043dd26ac7b",
+    "figure1_precision_recall.png": "ee7ecd022da64737928b42fdcf0bc19f1f12cbcfb85b87d1390928fe6f474000",
+    "figure2_decision_cost.png": "834e1e9f4ca7cb67fb7215cd5c9908b7bb45282da7bedc9281b5f7571360d2d5",
+    "predictions.csv": "4e1566dd5760de4fd1bb0efe1639c7448cb278a4b52ca5fdc4dd3ba248f08f68",
+    "run_metadata.json": "e3a91b20e1d7fdb7fa06022f9328e587ff12414c5e89dc23bb61fef4d1cf56da",
+    "table1_detection.csv": "c7b2a3d128c4604fc1e7d9122833f41ac34c4e0be3281685100dc857d0235a12",
+    "table2_decisions.csv": "9e6b3644b489dea245c0f7b8d12ecb3266eb11f88b27e1a4377db49d081da459"
+  }
+}

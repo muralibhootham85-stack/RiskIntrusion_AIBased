@@ -1,0 +1,65 @@
+{
+  "source": "UNSW-NB15 public benchmark; third-party GitHub mirror",
+  "mirror_repository": "Nir-J/ML-Projects",
+  "mirror_commit": "44bbd02b9e70f74dd915218d5eb702f125341ffc",
+  "official_byte_equivalence_verified": false,
+  "excluded_predictors": [
+    "id",
+    "attack_cat",
+    "label"
+  ],
+  "predictor_count": 42,
+  "test_rows_with_train_feature_match": 8541,
+  "files": {
+    "UNSW_NB15_training-set.csv": {
+      "sha256": "bec7dd5ec88dc2a0ccc7a07879d338395ed7421750f675fd0339e07dfe0648fa",
+      "rows": 175341,
+      "columns": 45,
+      "feature_duplicate_rows": 74301,
+      "conflicting_feature_groups": 229,
+      "missing_cells": 0,
+      "infinite_numeric_cells": 0,
+      "binary_counts": {
+        "1": 119341,
+        "0": 56000
+      },
+      "category_counts": {
+        "Normal": 56000,
+        "Generic": 40000,
+        "Exploits": 33393,
+        "Fuzzers": 18184,
+        "DoS": 12264,
+        "Reconnaissance": 10491,
+        "Analysis": 2000,
+        "Backdoor": 1746,
+        "Shellcode": 1133,
+        "Worms": 130
+      }
+    },
+    "UNSW_NB15_testing-set.csv": {
+      "sha256": "734fe6642edf758f7c94d7d9149426b49d202fe8e7bf0bef47392489c3c0a559",
+      "rows": 82332,
+      "columns": 45,
+      "feature_duplicate_rows": 28386,
+      "conflicting_feature_groups": 6,
+      "missing_cells": 0,
+      "infinite_numeric_cells": 0,
+      "binary_counts": {
+        "1": 45332,
+        "0": 37000
+      },
+      "category_counts": {
+        "Normal": 37000,
+        "Generic": 18871,
+        "Exploits": 11132,
+        "Fuzzers": 6062,
+        "DoS": 4089,
+        "Reconnaissance": 3496,
+        "Analysis": 677,
+        "Backdoor": 583,
+        "Shellcode": 378,
+        "Worms": 44
+      }
+    }
+  }
+}

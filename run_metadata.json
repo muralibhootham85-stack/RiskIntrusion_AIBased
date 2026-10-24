@@ -1,0 +1,32 @@
+{
+  "seed": 802,
+  "trees": 200,
+  "iterations": 200,
+  "jobs": 2,
+  "python": "3.13.17",
+  "sklearn": "1.8.0",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "source_sha256": "69fb375b4b4d9543ee82ecae0ddd0e9ca953132207c70a9a5022479fa393d04a",
+  "training_partition_sha256": {
+    "fit": "cc8f2fb1b1b6254be2bef51834bc511e0dbed3f45fdde471e0521080cbe400e8",
+    "calibration": "dd6168b736cb7c9002bf4fba9d8495ffcea2099fdcbf51c701c0760b7a572621",
+    "validation": "774b09963ede2b3a1567a4a86e529f04ca90c3ca1a816a0653ebf0b9a9fa5d3e"
+  },
+  "tie_policy": "seeded label-independent random ties",
+  "fit_n": 60486,
+  "calibration_n": 20162,
+  "validation_n": 20163,
+  "validation_brier": {
+    "Logistic regression": 0.06879331443439696,
+    "Random forest": 0.05210087387237819,
+    "Gradient boosting": 0.0491847178547596
+  },
+  "selected_model": "Gradient boosting",
+  "limitations": [
+    "One benchmark; no field validation",
+    "Impact assignments and losses are hypothetical; they are not observed financial data",
+    "Review assumes perfect prevention and constant unit cost",
+    "No uncertainty analysis yet; outputs are preliminary"
+  ]
+}
